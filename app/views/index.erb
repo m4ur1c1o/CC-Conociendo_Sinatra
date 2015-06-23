@@ -1,0 +1,30 @@
+<h1>Bienvenido a Sinatra!</h1>
+<p>Este es un esqueleto de sinatra que armamos para ti</p>
+
+<form action="/cool_url" method="get">
+	<h3>Get Form</h3>
+	<input type="text" name="input_get"><br><br>
+	<input type="radio" name="gender"> Gender<br>
+	<input type="checkbox" name="married"> Married<br><br>
+	<select>
+	  <option name="Milk">Milk</option>
+	  <option name="Cofee">Coffee</option>
+	  <option name="Tea">Tea</option>
+	</select>
+	<br><br>
+	<textarea name=textarea></textarea><br><br>
+	<button>Submit</button>
+</form>  
+<br><br><br>
+<form action="/cool_url" method="post">
+	<h3>Post Form</h3>
+	<input type="text" name="input_post"><br><br>
+	Title
+	<input type="text" name="post[title]"><br><br>
+	Price
+	<input type="text" name="post[price]"><br><br>
+	Description
+	<textarea name="post[description]"></textarea>
+	<br><br>
+	<button>Submit</button>
+</form>  
